@@ -1,2 +1,2 @@
-# oppstarts_pakke
+# oppstartspakke
 Gruppeinnlevering IS-118
