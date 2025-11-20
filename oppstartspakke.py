@@ -74,6 +74,22 @@ print("\nA: Arranger en workshop med både Hamdi og Jabir, " \
 print("\nB: Velg å avvente situasjonen og håpe at de finner ut av det selv, uten din inngripen. " \
      )
 #---------------koding konflikt 2---------------
+while True:
+    choice_two = input("\nHva gjør du? [A/B]").upper()
+    if choice_two in ["A", "B"]:
+        story_state["choice_two"] = choice_two
+        break
+    else: 
+        print("Ugyldig valg. Vennligst velg A eller B.")
+if story_state["choice_two"] == "A":
+    print("\n Du arrangerer en workshop der Hamdi og Jabir får muligheten til å uttrykke sine synspunkter. " \
+          "Gjennom fasilitert dialog klarer de å finne en mellomløsning som tilfredsstiller begge parter. " \
+          "Teamet føler seg styrket av samarbeidet, og fremdriften fortsetter.")
+    poeng += 1
+else:
+    print("\n Du velger å avvente situasjonen, men konflikten mellom Hamdi og Jabir eskalerer. " \
+          "Deres uenigheter begynner å påvirke teamets dynamikk negativt, " \
+          "og du merker at fremdriften mot ferdigstillingen av prosjektet sakker ned.")
 
 print(linje)
 print(linje)
