@@ -103,10 +103,14 @@ while True:
         print("Ugyldig valg. Vennligst velg A eller B.")
 
 if story_state["choice_three"] == "A":
-    print("\n Du arrengerer en koselig kveld utenfor jobb der medlemmene kan slappe av og legge uenighetene sine til side, dek koser seg")
+    print("\n Du arrengerer en koselig kveld utenfor jobb der medlemmene kan slappe av, " \
+          "og legge uenighetene sine til side, de koser seg. "
+         )
     poeng += 1
 else:
-    print("\n Du innstrammer kravene til teamet enda mer, og de føler seg mer misforståtte og oversette. De retter misnøyen sin fra seg imellom til Erling.")
+    print("\n Du innstrammer kravene til teamet enda mer, og de føler seg mer misforståtte og oversette. " \
+          "De retter misnøyen sin fra seg imellom til Erling. " 
+         )
 
 print(linje)
 print(linje)
