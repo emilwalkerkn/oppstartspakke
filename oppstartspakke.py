@@ -9,6 +9,23 @@ story_state = {
     "choice_three": ""
 }
 linje = "="*60
+#--------------Introduksjon--------------
+Print(linje)
+print()
+print("Erling (det er deg det) er prosjektleder for kommunens utvikling av medborger-portal.")
+print("Teamet består av:")
+print()
+print("- Sivert: IT-rådgiver, opptatt av teknisk sikkerhet og kostnadskontroll")
+print("- Silje: UX/UI-designer, fokusert på brukervennlighet og innovasjon")
+print("- Hamdi: Kulturavdeling, ansvarlig for innbygger-dialog")
+print("- Jabir: Brukerrepresentant fra lokal innbygger-forening")
+print()
+print("Starten var som alle andre prosjekter, fylt av pågangsmot og stå-på-vilje,")
+print("men etterhvert som tiden gikk, passerte også norming-fasen og nå, etter")
+print("6 uker, så Erling at stormen var på veg. Både billedlig og bokstavelig ment.")
+print()
+input("Trykk [ENTER] for å starte historien...")
+print()
 #---------------Konflikt 1---------------
 print("\nDet opstår en konflikt mellom Silje og Sivert i teamet ditt." \
       "Silje (UX-designer) mener at brukeropplevelsen må prioriteres høyest, "
@@ -19,9 +36,9 @@ print("\nKonflikten eskalerer, og det begynner å påvirke teamets moral og frem
      )
 print("\nSom prosjektleder må du ta en beslutning om hvordan du skal håndtere dette. "
      )
-print(linje)
+print()
 print("\nHva gjør du?")
-print(linje)
+print()
 print("\nA: Arranger et møte med Silje og Sivert for å diskutere konflikten, " \
       "slik at begge parter får uttrykt bekymringene sine og kan finne en felles løsning. " \
      )
@@ -47,9 +64,9 @@ else:
           "og kommuniserer dette til teamet uten å involvere Silje og Sivert i prosessen.") 
      print("Dette fører til at Silje føler seg oversett og undervurdert, "
           "noe som skaper ytterligere spenning i teamet og påvirker moralen negativt.")
-input("Trykk [ENTER] for å fortsette")
+print() 
+input("Trykk [ENTER] for å fortsette...")
 
-print(linje)
 print(linje)
 #---------------Konflikt 2---------------
 print("\nSamtidig som konflikten mellom Silje og Sivert, oppstår det en annen konflikt i teamet ditt. " \
@@ -65,9 +82,9 @@ print("\nI tillegg til uenighetene så vet du at prosjektet nærmer seg en vikti
       "Stemningen er spent, kommunikasjonen hakkete, og Erling vet at hans neste valg kan, " \
       "avgjøre om teamet beveger seg videre mot 'norming', eller blir stående fast i 'stormen'. "
       )
-print(linje)
+print()
 print("\nHva gjør du?")
-print(linje)
+print()
 print("\nA: Arranger en workshop med både Hamdi og Jabir, " \
       "slik at de kan diskutere sine perspektiver og finne en felles vei fremover. " \
      )
@@ -90,8 +107,8 @@ else:
     print("\n Du velger å avvente situasjonen, men konflikten mellom Hamdi og Jabir eskalerer. " \
           "Deres uenigheter begynner å påvirke teamets dynamikk negativt, " \
           "og du merker at fremdriften mot ferdigstillingen av prosjektet sakker ned.")
-
-print(linje)
+print()
+input("Trykk [ENTER] for å fortsette...")
 print(linje)
 #---------------Konflikt 3---------------
 print("\nMed bare tre uker igjen til første prototype skal leveres, merker du " \
@@ -100,9 +117,9 @@ print("\nMed bare tre uker igjen til første prototype skal leveres, merker du "
      )
 print("\nSom prosjektleder må du ta grep for å bevare teamets moral og sikre fremdrift. " \
      )
-print(linje)
+print()
 print("\nHva gjør du?")
-print(linje)
+print()
 print("\nA: Arranger en kort teambyggingsaktivitet for å styrke tilliten i teamet, " \
       "samtidig som du legger en klar og realistisk plan for de neste tre ukene. " \
      )
@@ -127,8 +144,7 @@ else:
     print("\n Du innstrammer kravene til teamet enda mer, og de føler seg mer misforståtte og oversette. " \
           "De retter misnøyen sin fra seg imellom til Erling. " 
          )
-
-print(linje)
+print() 
 print(linje)
 input("Trykk [ENTER] for å se resultat. ")
 #Slutten
