@@ -2,7 +2,12 @@
 
 
 # Variabler/dictionary
-
+poeng = 0
+story_state = {
+    "choice_one": "",
+    "choice_two": "",
+    "choice_three": ""
+}
 #Konflikt 1
 
 #Konflikt 2
