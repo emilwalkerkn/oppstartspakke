@@ -57,5 +57,23 @@ print("\nB: Velg å avvente situasjonen og håpe at de finner ut av det selv, ut
 print("=*60")
 print("=*60")
 #Konflikt 3
+print("\nMed bare tre uker igjen til første prototype skal leveres, merker du " \
+      "at teamets motivasjon og fokus begynner å vakle. " \
+      "Konfliktene som har oppstått har skapt en anspent atmosfære. " \
+     )
+print("\nSom prosjektleder må du ta grep for å bevare teamets moral og sikre fremdrift. " \
+     )
+print("=*60")
+print("\nHva gjør du?")
+print("*60")
+print("\nA: Arranger en kort teambyggingsaktivitet for å styrke tilliten i teamet, " \
+      "samtidig som du legger en klar og realistisk plan for de neste tre ukene. " \
+     )
+print("\nB: Fokuser på å stramme opp oppfølgingen og fremdriften, " \
+      med hyppige statusmøter og klare leveransemål. "
+      )
+#koding til konflikt 3 skal være her
 
+print("=*60")
+print("=*60")
 #Slutten
