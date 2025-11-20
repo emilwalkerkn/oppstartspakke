@@ -73,6 +73,19 @@ print("\nB: Fokuser på å stramme opp oppfølgingen og fremdriften, " \
       "med hyppige statusmøter og klare leveransemål. "
       )
 #koding til konflikt 3 skal være her
+while True:
+    choice_three = input("\nHva gjør du? [A/B]").upper()
+    if choice_three in ["A", "B"]:
+        story_state["choice_three"] = choice_three
+        break
+    else: 
+        print("Ugyldig valg. Vennligst velg A eller B.")
+
+if story_state["choice_three"] == "A":
+    print("\n Du arrengerer en koselig kveld utenfor jobb der medlemmene kan slappe av og legge uenighetene sine til side, dek koser seg")
+    poeng += 1
+else:
+    print("\n Du innstrammer kravene til teamet enda mer, og de føler seg mer misforståtte og oversette. De retter misnøyen sin fra seg imellom til Erling.")
 
 print("=*60")
 print("=*60")
