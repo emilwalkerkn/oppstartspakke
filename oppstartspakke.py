@@ -110,4 +110,5 @@ else:
 
 print(linje)
 print(linje)
+input("Trykk [ENTER] for å se resultat. ")
 #Slutten
