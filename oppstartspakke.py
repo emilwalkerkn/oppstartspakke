@@ -132,3 +132,20 @@ print(linje)
 print(linje)
 input("Trykk [ENTER] for å se resultat. ")
 #Slutten
+print("\nProsjektets fremdrift og teamets moral har blitt påvirket av dine valg som prosjektleder. "
+      )
+print(f"\nDu har oppnådd {poeng} av 3 mulige poeng.")
+if poeng == 3:
+    print("\nGratulerer! Du har håndtert konfliktene på en utmerket måte, "
+          "og teamet ditt har klart å bevare både moral og fremdrift gjennom utfordringene. "
+          )
+elif poeng == 2:
+    print("\nBra jobbet! Du har tatt noen gode beslutninger, "
+          "men det er fortsatt rom for forbedring i hvordan du håndterer konflikter. "
+          )
+else:
+    print("\nDessverre har dine valg som prosjektleder ikke vært tilstrekkelige "
+          "for å håndtere konfliktene i teamet. "
+          "Det er viktig å reflektere over dine beslutninger og lære av erfaringene for fremtidige situasjoner. "
+          )
+print("\nTakk for at du spilte! ")
