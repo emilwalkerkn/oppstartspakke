@@ -77,7 +77,7 @@ print("\nB: Velg å avvente situasjonen og håpe at de finner ut av det selv, ut
 
 print(linje)
 print(linje)
-#Konflikt 3
+#---------------Konflikt 3---------------
 print("\nMed bare tre uker igjen til første prototype skal leveres, merker du " \
       "at teamets motivasjon og fokus begynner å vakle. " \
       "Konfliktene som har oppstått har skapt en anspent atmosfære. " \
