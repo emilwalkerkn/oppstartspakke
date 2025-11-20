@@ -27,6 +27,25 @@ print("\nA: Arranger et møte med Silje og Sivert for å diskutere konflikten, "
 print("\nB: Prioriter fremdrift og ta en beslutning på egenhånd uten å involvere de. " \
      )
 #koding til konflikt 1 sal være her
+while True:
+    choice_one = input("\nHva gjør du? [A/B]").upper()
+    if choice_one in ["A", "B"]:
+       story_state["choice_one"] = choice_one
+       break
+    else:
+        print("Ugyldig input, velg [A/B]")
+
+if story_state["choice_one"] == "A":
+    print("\nDu arrangerer et møte med Silje og Sivert. Gjennom åpen kommunikasjon og aktiv lytting, " \
+          "klarer dere å finne en felles forståelse og en løsning som begge parter kan akseptere. " \
+          "Teamet føler seg hørt, og samarbeidet forbedres.")
+    poeng += 1
+else:
+     print("\nDu velger å prioritere fremdrift og tar en beslutning på egen hånd. " \
+           "Du bestemmer at prosjektet må fokusere på tekniske løsninger først, " \
+          "og kommuniserer dette til teamet uten å involvere Silje og Sivert i prosessen.") 
+     print("Dette fører til at Silje føler seg oversett og undervurdert, "
+          "noe som skaper ytterligere spenning i teamet og påvirker moralen negativt.")
 
 print("=*60")
 print("=*60")
