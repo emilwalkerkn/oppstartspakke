@@ -70,7 +70,7 @@ print("\nA: Arranger en kort teambyggingsaktivitet for å styrke tilliten i team
       "samtidig som du legger en klar og realistisk plan for de neste tre ukene. " \
      )
 print("\nB: Fokuser på å stramme opp oppfølgingen og fremdriften, " \
-      med hyppige statusmøter og klare leveransemål. "
+      "med hyppige statusmøter og klare leveransemål. "
       )
 #koding til konflikt 3 skal være her
 
