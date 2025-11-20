@@ -46,6 +46,7 @@ else:
           "og kommuniserer dette til teamet uten å involvere Silje og Sivert i prosessen.") 
      print("Dette fører til at Silje føler seg oversett og undervurdert, "
           "noe som skaper ytterligere spenning i teamet og påvirker moralen negativt.")
+input("Trykk [ENTER] for å fortsette")
 
 print("=*60")
 print("=*60")
