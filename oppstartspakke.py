@@ -1,14 +1,15 @@
-# Oppstartspakke, interaksjonsoppgave fra Gruppe 7
+# **Oppstartspakke, interaksjonsoppgave fra Gruppe 7**
 
 
-# Variabler/dictionary
+#---------------Variabler/dictionary---------------
 poeng = 0
 story_state = {
     "choice_one": "",
     "choice_two": "",
     "choice_three": ""
 }
-#Konflikt 1
+linje = "="*60
+#---------------Konflikt 1---------------
 print("\nDet opstår en konflikt mellom Silje og Sivert i teamet ditt." \
       "Silje (UX-designer) mener at brukeropplevelsen må prioriteres høyest, "
       "mens Sivert (IT-utvikler) insisterer på at tekniske løsninger må komme først. "
@@ -18,15 +19,15 @@ print("\nKonflikten eskalerer, og det begynner å påvirke teamets moral og frem
      )
 print("\nSom prosjektleder må du ta en beslutning om hvordan du skal håndtere dette. "
      )
-print("=*60")
+print(linje)
 print("\nHva gjør du?")
-print("=60*")
+print(linje)
 print("\nA: Arranger et møte med Silje og Sivert for å diskutere konflikten, " \
       "slik at begge parter får uttrykt bekymringene sine og kan finne en felles løsning. " \
      )
 print("\nB: Prioriter fremdrift og ta en beslutning på egenhånd uten å involvere de. " \
      )
-#koding til konflikt 1 sal være her
+#---------------koding konflikt 1---------------
 while True:
     choice_one = input("\nHva gjør du? [A/B]").upper()
     if choice_one in ["A", "B"]:
@@ -47,9 +48,9 @@ else:
      print("Dette fører til at Silje føler seg oversett og undervurdert, "
           "noe som skaper ytterligere spenning i teamet og påvirker moralen negativt.")
 
-print("=*60")
-print("=*60")
-#Konflikt 2
+print(linje)
+print(linje)
+#---------------Konflikt 2---------------
 print("\nSamtidig som konflikten mellom Silje og Sivert, oppstår det en annen konflikt i teamet ditt. " \
       "Denne gangen er det mellom Hamdi (fra kulturavdelingen) og Jabir (brukerrepresentant). " 
      )
@@ -63,18 +64,18 @@ print("\nI tillegg til uenighetene så vet du at prosjektet nærmer seg en vikti
       "Stemningen er spent, kommunikasjonen hakkete, og Erling vet at hans neste valg kan, " \
       "avgjøre om teamet beveger seg videre mot 'norming', eller blir stående fast i 'stormen'. "
       )
-print("=*60")
+print(linje)
 print("\nHva gjør du?")
-print("*60")
+print(linje)
 print("\nA: Arranger en workshop med både Hamdi og Jabir, " \
       "slik at de kan diskutere sine perspektiver og finne en felles vei fremover. " \
      )
 print("\nB: Velg å avvente situasjonen og håpe at de finner ut av det selv, uten din inngripen. " \
      )
-#koding til konflikt 2 skal være her
+#---------------koding konflikt 2---------------
 
-print("=*60")
-print("=*60")
+print(linje)
+print(linje)
 #Konflikt 3
 print("\nMed bare tre uker igjen til første prototype skal leveres, merker du " \
       "at teamets motivasjon og fokus begynner å vakle. " \
@@ -82,16 +83,16 @@ print("\nMed bare tre uker igjen til første prototype skal leveres, merker du "
      )
 print("\nSom prosjektleder må du ta grep for å bevare teamets moral og sikre fremdrift. " \
      )
-print("=*60")
+print(linje)
 print("\nHva gjør du?")
-print("*60")
+print(linje)
 print("\nA: Arranger en kort teambyggingsaktivitet for å styrke tilliten i teamet, " \
       "samtidig som du legger en klar og realistisk plan for de neste tre ukene. " \
      )
 print("\nB: Fokuser på å stramme opp oppfølgingen og fremdriften, " \
       "med hyppige statusmøter og klare leveransemål. "
       )
-#koding til konflikt 3 skal være her
+#---------------koding konflikt 3---------------
 while True:
     choice_three = input("\nHva gjør du? [A/B]").upper()
     if choice_three in ["A", "B"]:
@@ -106,6 +107,6 @@ if story_state["choice_three"] == "A":
 else:
     print("\n Du innstrammer kravene til teamet enda mer, og de føler seg mer misforståtte og oversette. De retter misnøyen sin fra seg imellom til Erling.")
 
-print("=*60")
-print("=*60")
+print(linje)
+print(linje)
 #Slutten
