@@ -119,7 +119,7 @@ while True:
 
 #--------------- Sluttutfall ---------------
 
-# Skriv ut hvilke valg spilleren gjorde (AI)
+# Skriv ut hvilke valg spilleren gjorde (hjelp av AI, for å forstå)
 print("\nDine valg underveis:")
 print(f"Konflikt 1: {choices.get('conflict1', 'ingen valg')}")
 print(f"Konflikt 2: {choices.get('conflict2', 'ingen valg')}")
