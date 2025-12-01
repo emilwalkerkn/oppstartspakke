@@ -10,7 +10,7 @@ story_state = {
 }
 linje = "="*60
 #--------------Introduksjon--------------
-Print(linje)
+print(linje)
 print()
 print("Erling (det er deg det) er prosjektleder for kommunens utvikling av medborger-portal.")
 print("Teamet består av:")
