@@ -1,0 +1,167 @@
+# **Oppstartspakke, interaksjonsoppgave fra Gruppe 7**
+
+
+#---------------Variabler/dictionary---------------
+poeng = 0
+story_state = {
+    "choice_one": "",
+    "choice_two": "",
+    "choice_three": ""
+}
+linje = "="*60
+#--------------Introduksjon--------------
+print(linje)
+print()
+print("Erling (det er deg det) er prosjektleder for kommunens utvikling av medborger-portal.")
+print("Teamet består av:")
+print()
+print("- Sivert: IT-rådgiver, opptatt av teknisk sikkerhet og kostnadskontroll")
+print("- Silje: UX/UI-designer, fokusert på brukervennlighet og innovasjon")
+print("- Hamdi: Kulturavdeling, ansvarlig for innbygger-dialog")
+print("- Jabir: Brukerrepresentant fra lokal innbygger-forening")
+print()
+print("Starten var som alle andre prosjekter, fylt av pågangsmot og stå-på-vilje,")
+print("men etterhvert som tiden gikk, passerte også norming-fasen og nå, etter")
+print("6 uker, så Erling at stormen var på veg. Både billedlig og bokstavelig ment.")
+print()
+input("Trykk [ENTER] for å starte historien...")
+print()
+#---------------Konflikt 1---------------
+print("\nDet opstår en konflikt mellom Silje og Sivert i teamet ditt." \
+      "Silje (UX-designer) mener at brukeropplevelsen må prioriteres høyest, "
+      "mens Sivert (IT-utvikler) insisterer på at tekniske løsninger må komme først. "
+     )
+print("\nKonflikten eskalerer, og det begynner å påvirke teamets moral og fremdrift. " \
+      "Sakskonflikten har blitt til en personlig konflikt, og de begge drar støtte av andre teammedlemmer. "
+     )
+print("\nSom prosjektleder må du ta en beslutning om hvordan du skal håndtere dette. "
+     )
+print()
+print("\nHva gjør du?")
+print()
+print("\nA: Arranger et møte med Silje og Sivert for å diskutere konflikten, " \
+      "slik at begge parter får uttrykt bekymringene sine og kan finne en felles løsning. " \
+     )
+print("\nB: Prioriter fremdrift og ta en beslutning på egenhånd uten å involvere de. " \
+     )
+#---------------koding konflikt 1---------------
+while True:
+    choice_one = input("\nHva gjør du? [A/B]").upper()
+    if choice_one in ["A", "B"]:
+       story_state["choice_one"] = choice_one
+       break
+    else:
+        print("Ugyldig input, velg [A/B]")
+
+if story_state["choice_one"] == "A":
+    print("\nDu arrangerer et møte med Silje og Sivert. Gjennom åpen kommunikasjon og aktiv lytting, " \
+          "klarer dere å finne en felles forståelse og en løsning som begge parter kan akseptere. " \
+          "Teamet føler seg hørt, og samarbeidet forbedres.")
+    poeng += 1
+else:
+     print("\nDu velger å prioritere fremdrift og tar en beslutning på egen hånd. " \
+           "Du bestemmer at prosjektet må fokusere på tekniske løsninger først, " \
+          "og kommuniserer dette til teamet uten å involvere Silje og Sivert i prosessen.") 
+     print("Dette fører til at Silje føler seg oversett og undervurdert, "
+          "noe som skaper ytterligere spenning i teamet og påvirker moralen negativt.")
+print() 
+input("Trykk [ENTER] for å fortsette...")
+
+print(linje)
+#---------------Konflikt 2---------------
+print("\nSamtidig som konflikten mellom Silje og Sivert, oppstår det en annen konflikt i teamet ditt. " \
+      "Denne gangen er det mellom Hamdi (fra kulturavdelingen) og Jabir (brukerrepresentant). " 
+     )
+print("\nHamdi ønsker en kontrollert løsning gjennom kommunens eksisterende plattform, " \
+      "mens Jabir ønsker et mer åpent, dialogbasert system med rom for spontane innspill. "
+     )
+print("\nForeløpig er uenigheten lavmælt, men du merker at frustrasjonen vokser. "
+     )
+print("\nI tillegg til uenighetene så vet du at prosjektet nærmer seg en viktig milepæl; " \
+      "første prototype skal være klar om tre uker. " \
+      "Stemningen er spent, kommunikasjonen hakkete, og Erling vet at hans neste valg kan, " \
+      "avgjøre om teamet beveger seg videre mot 'norming', eller blir stående fast i 'stormen'. "
+      )
+print()
+print("\nHva gjør du?")
+print()
+print("\nA: Arranger en workshop med både Hamdi og Jabir, " \
+      "slik at de kan diskutere sine perspektiver og finne en felles vei fremover. " \
+     )
+print("\nB: Velg å avvente situasjonen og håpe at de finner ut av det selv, uten din inngripen. " \
+     )
+#---------------koding konflikt 2---------------
+while True:
+    choice_two = input("\nHva gjør du? [A/B]").upper()
+    if choice_two in ["A", "B"]:
+        story_state["choice_two"] = choice_two
+        break
+    else: 
+        print("Ugyldig valg. Vennligst velg A eller B.")
+if story_state["choice_two"] == "A":
+    print("\n Du arrangerer en workshop der Hamdi og Jabir får muligheten til å uttrykke sine synspunkter. " \
+          "Gjennom fasilitert dialog klarer de å finne en mellomløsning som tilfredsstiller begge parter. " \
+          "Teamet føler seg styrket av samarbeidet, og fremdriften fortsetter.")
+    poeng += 1
+else:
+    print("\n Du velger å avvente situasjonen, men konflikten mellom Hamdi og Jabir eskalerer. " \
+          "Deres uenigheter begynner å påvirke teamets dynamikk negativt, " \
+          "og du merker at fremdriften mot ferdigstillingen av prosjektet sakker ned.")
+print()
+input("Trykk [ENTER] for å fortsette...")
+print(linje)
+#---------------Konflikt 3---------------
+print("\nMed bare tre uker igjen til første prototype skal leveres, merker du " \
+      "at teamets motivasjon og fokus begynner å vakle. " \
+      "Konfliktene som har oppstått har skapt en anspent atmosfære. " \
+     )
+print("\nSom prosjektleder må du ta grep for å bevare teamets moral og sikre fremdrift. " \
+     )
+print()
+print("\nHva gjør du?")
+print()
+print("\nA: Arranger en kort teambyggingsaktivitet for å styrke tilliten i teamet, " \
+      "samtidig som du legger en klar og realistisk plan for de neste tre ukene. " \
+     )
+print("\nB: Fokuser på å stramme opp oppfølgingen og fremdriften, " \
+      "med hyppige statusmøter og klare leveransemål. "
+      )
+#---------------koding konflikt 3---------------
+while True:
+    choice_three = input("\nHva gjør du? [A/B]").upper()
+    if choice_three in ["A", "B"]:
+        story_state["choice_three"] = choice_three
+        break
+    else: 
+        print("Ugyldig valg. Vennligst velg A eller B.")
+
+if story_state["choice_three"] == "A":
+    print("\n Du arrengerer en koselig kveld utenfor jobb der medlemmene kan slappe av, " \
+          "og legge uenighetene sine til side, de koser seg. "
+         )
+    poeng += 1
+else:
+    print("\n Du innstrammer kravene til teamet enda mer, og de føler seg mer misforståtte og oversette. " \
+          "De retter misnøyen sin fra seg imellom til Erling. " 
+         )
+print() 
+print(linje)
+input("Trykk [ENTER] for å se resultat. ")
+#Slutten
+print("\nProsjektets fremdrift og teamets moral har blitt påvirket av dine valg som prosjektleder. "
+      )
+print(f"\nDu har oppnådd {poeng} av 3 mulige poeng.")
+if poeng == 3:
+    print("\nGratulerer! Du har håndtert konfliktene på en utmerket måte, "
+          "og teamet ditt har klart å bevare både moral og fremdrift gjennom utfordringene. "
+          )
+elif poeng == 2:
+    print("\nBra jobbet! Du har tatt noen gode beslutninger, "
+          "men det er fortsatt rom for forbedring i hvordan du håndterer konflikter. "
+          )
+else:
+    print("\nDessverre har dine valg som prosjektleder ikke vært tilstrekkelige "
+          "for å håndtere konfliktene i teamet. "
+          "Det er viktig å reflektere over dine beslutninger og lære av erfaringene for fremtidige situasjoner. "
+          )
+print("\nTakk for at du spilte! ")
